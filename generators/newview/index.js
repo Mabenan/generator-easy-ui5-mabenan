@@ -89,7 +89,7 @@ module.exports = class extends Generator {
 
 
       this.options.oneTimeConfig.appId = this.options.oneTimeConfig.namespace + "." + this.options.oneTimeConfig.projectname ;
-      this.options.oneTimeConfig.appURI = this.options.oneTimeConfig.namespaceURI + "/" + his.options.oneTimeConfig.projectname;
+      this.options.oneTimeConfig.appURI = this.options.oneTimeConfig.namespaceURI + "/" + this.options.oneTimeConfig.projectname;
     });
   }
 
