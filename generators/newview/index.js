@@ -10,8 +10,8 @@ module.exports = class extends Generator {
       this.options.oneTimeConfig.modulename = this.options.modulename;
       this.options.oneTimeConfig.viewname = this.options.viewname;
 
-      this.options.oneTimeConfig.appId = this.options.oneTimeConfig.namespace + "." + (this.options.modulename === "uimodule" ? this.options.oneTimeConfig.projectname : this.options.modulename);
-      this.options.oneTimeConfig.appURI = this.options.oneTimeConfig.namespaceURI + "/" + (this.options.modulename === "uimodule" ? this.options.oneTimeConfig.projectname : this.options.modulename);
+      this.options.oneTimeConfig.appId = this.options.oneTimeConfig.namespace + "." + this.options.oneTimeConfig.projectname ;
+      this.options.oneTimeConfig.appURI = this.options.oneTimeConfig.namespaceURI + "/" + this.options.oneTimeConfig.projectname;
       return [];
     }
 
